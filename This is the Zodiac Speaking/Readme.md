@@ -20,8 +20,7 @@ or
 Languages supported via eshop:
 - English
 
-Languages supported originally (Unity language value in decimal):
-- English (10) // confirmed working
+Languages supported originally and not listed on eShop (Unity language value in decimal):
 - German (15)
 - French (14)
 - Russian (30)
