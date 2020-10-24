@@ -3,7 +3,6 @@ Force Language in Nintendo Switch Games Methodology repo
 
 Tools:
 - Ghidra https://ghidra-sre.org/
-- UABE (Unity Asset Bundle Extractor) https://github.com/DerPopo/UABE
 - UnityEX https://forum.zoneofgames.ru/topic/36240-unityex/
 - hactool https://github.com/SciresM/hactool
 - nxdumptool https://github.com/DarkMatterCore/nxdumptool
