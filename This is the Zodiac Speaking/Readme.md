@@ -1,6 +1,6 @@
 # This is the Zodiac Speaking
 
-1. Unpack `main` from `exefs` and `global-metadata.dat` from `romfs/Managed/Metadata`
+1. Unpack `main` from `exefs`, and `global-metadata.dat` from `romfs/Managed/Metadata`
 2. Load main to `Ghidra` using `Ghidra Switch Loader`
 3. Use il2cppdumper, choose first `main` from exefs, then `global-metadata.dat`. It will create `script.json`
 4. Open loaded `main`, don't analyze it. Use `ghidra.py` to load script.json
