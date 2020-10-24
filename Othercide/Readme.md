@@ -23,5 +23,5 @@ Languages supported via eshop:
 - Russian
 - Chinese
 
-Languages supported originally and not listed on eshop (Unity language value in decimal):
+Languages supported originally and not possible to choose in game (Unity language value in decimal):
 - Polish (27) // confirmed working
