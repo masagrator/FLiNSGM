@@ -1,7 +1,7 @@
 # FLiNSGM
 Force Language in Nintendo Switch Games Methodology repo
 
-Tools:
+Tools I'm using:
 - Ghidra https://ghidra-sre.org/
 - UnityEX https://forum.zoneofgames.ru/topic/36240-unityex/
 - hactool https://github.com/SciresM/hactool
