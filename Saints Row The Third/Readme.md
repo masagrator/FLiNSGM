@@ -11,18 +11,31 @@ Recommended is to use IDA since Ghidra has issues with proper disassembling this
 6. By some code examining I have found that engine has defined all supported languages and one string that contains used languages in game - in our case `US DE ES FR IT NL CZ PL RU`. 
 By searching instructions reading strings like "SE" or "ES" we can find that they are in some order. I have assumed that if US is 0, then if it starts from ES it must be 1 for comparison that you can find in vicinity of `nn::settings::LanguageCode::Make(nn::settings::Language)`. So:
 > US - 0
+>
 > ES - 1
+>
 > IT - 2
+>
 > JP - 3
+>
 > DE - 4
+>
 > FR - 5
+>
 > NL - 6
+>
 > SE - 7
+>
 > DK - 8
+>
 > CZ - 9
+>
 > PL - 10
+>
 > SK - 11
+>
 > RU - 12
+>
 > CH - 13
 8. Because I can't find comparison for US, I have used ES as donator. Slightly above `nn::settings::LanguageCode::Make` call in this function it should be instruction `mov W8, #1`. Change `1` to the language value
 9. Write IPS file and put it to exefs patches
