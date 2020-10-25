@@ -3,7 +3,6 @@
 Recommended is to use IDA since Ghidra has issues with proper disassembling this main (IDA also, but not as bad as Ghidra and it's enough for this case). 
 
 > Full methodology:
-0. Go to IDA folder, next `cfg` and edit `hexrays.cfg`. Find `MAX_FUNCSIZE` and change it to at least `340`. Save it.
 1. Load `main` from exefs to IDA using nxo64.py with `Enabled` in Analyze window unchecked
 2. Force convert whole `.text` and `.plt` to `code` without deleting already assigned info
 3. After finishing conversion enable analyze
