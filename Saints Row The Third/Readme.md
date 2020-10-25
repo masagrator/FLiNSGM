@@ -63,6 +63,7 @@ override_language=es
 ```
 Save it.
 Explanation: I couldn't figure out how to replace English detection. Any other language can be used, I have decided to use Spanish as donator.
+
 8. Copy `config.ini` to `atmosphere/contents/0100DE600BEEE000`
 
 ---
