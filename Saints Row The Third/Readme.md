@@ -9,7 +9,7 @@ Recommended is to use IDA since Ghidra has issues with proper disassembling this
 4. After finishing analyze find function `nn::settings::LanguageCode::Make(nn::settings::Language)` and go to xref (it should be only one)
 5. We should be now in code not converted to function. Find where this chunk of code starts, highlight code from the beginning (excluding first NOP) to the moment it will have size around 0x1000. Now go to Edit -> Functions -> Create function. Wait a moment until analyzer will finish the job.
 6. By some code examining I have found that engine has defined all supported languages and one string that contains used languages in game - in our case `US DE ES FR IT NL CZ PL RU`. 
-By searching instructions reading strings like "SE" or "ES" we can find that they are in some order. I have assumed that if US is 0, then if it starts from ES it must be 1 for comparison that you can find in vicinity of `nn::settings::LanguageCode::Make(nn::settings::Language)`. So:
+By searching instructions reading strings like "SE" or "ES" we can find that they are in some order. I have assumed that if US is 0 (because it doesn't exist in this list), then if it starts from ES it must be 1 for comparison that you can find in vicinity of `nn::settings::LanguageCode::Make(nn::settings::Language)`. So:
 > US - 0
 >
 > ES - 1
