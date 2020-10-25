@@ -6,6 +6,7 @@
 4. While auto-analyze is working, translate `Vanilla_en_US_iOS.xml` to your language (this is the only file that doesn't exist or is not translated fully for unsupported languages - but is used by Nintendo Switch. You can try to find if this file exists for your language and copy-paste lines that are translated)
 5. When auto-analyze is finished, find string `ja-` (use Search -> Memory, it's not converted to string by Ghidra analyzer because it's too short) and check its references. We are searching for function that looks like this (based on 1.2.8):
 ```
+
 void * FUN_7100ec246c(void *param_1,int param_2)
 
 {
@@ -13,8 +14,8 @@ void * FUN_7100ec246c(void *param_1,int param_2)
   uint uVar1;
   ulonglong uVar2;
   char *__s;
-  undefined8 uStack56;
-  undefined8 uStack40;
+  undefined8 local_38;
+  undefined8 local_28;
   
   if (param_1 == (void *)0x0) {
     return (void *)0x0;
@@ -22,76 +23,76 @@ void * FUN_7100ec246c(void *param_1,int param_2)
   if (param_2 == 0) {
     return param_1;
   }
-  uStack40 = GetDesiredLanguage();
-  uStack56 = Make(0);
-  uVar2 = operator==((LanguageCode *)&uStack40,(LanguageCode *)&uStack56);
+  local_28 = GetDesiredLanguage();
+  local_38 = Make(0);
+  uVar2 = operator==((LanguageCode *)&local_28,(LanguageCode *)&local_38);
   if ((uVar2 & 1) == 0) {
-    uStack56 = Make(2);
-    uVar2 = operator==((LanguageCode *)&uStack40,(LanguageCode *)&uStack56);
+    local_38 = Make(2);
+    uVar2 = operator==((LanguageCode *)&local_28,(LanguageCode *)&local_38);
     if ((uVar2 & 1) == 0) {
-      uStack56 = Make(3);
-      uVar2 = operator==((LanguageCode *)&uStack40,(LanguageCode *)&uStack56);
+      local_38 = Make(3);
+      uVar2 = operator==((LanguageCode *)&local_28,(LanguageCode *)&local_38);
       if ((uVar2 & 1) == 0) {
-        uStack56 = Make(4);
-        uVar2 = operator==((LanguageCode *)&uStack40,(LanguageCode *)&uStack56);
+        local_38 = Make(4);
+        uVar2 = operator==((LanguageCode *)&local_28,(LanguageCode *)&local_38);
         if ((uVar2 & 1) == 0) {
-          uStack56 = Make(5);
-          uVar2 = operator==((LanguageCode *)&uStack40,(LanguageCode *)&uStack56);
+          local_38 = Make(5);
+          uVar2 = operator==((LanguageCode *)&local_28,(LanguageCode *)&local_38);
           if ((uVar2 & 1) == 0) {
-            uStack56 = Make(6);
-            uVar2 = operator==((LanguageCode *)&uStack40,(LanguageCode *)&uStack56);
+            local_38 = Make(6);
+            uVar2 = operator==((LanguageCode *)&local_28,(LanguageCode *)&local_38);
             if ((uVar2 & 1) == 0) {
-              uStack56 = Make(7);
-              uVar2 = operator==((LanguageCode *)&uStack40,(LanguageCode *)&uStack56);
+              local_38 = Make(7);
+              uVar2 = operator==((LanguageCode *)&local_28,(LanguageCode *)&local_38);
               if ((uVar2 & 1) != 0) {
                 __s = "ko-";
                 goto LAB_7100ec2708;
               }
-              uStack56 = Make(8);
-              uVar2 = operator==((LanguageCode *)&uStack40,(LanguageCode *)&uStack56);
+              local_38 = Make(8);
+              uVar2 = operator==((LanguageCode *)&local_28,(LanguageCode *)&local_38);
               if ((uVar2 & 1) != 0) {
                 __s = "nl-";
                 goto LAB_7100ec2708;
               }
-              uStack56 = Make(9);
-              uVar2 = operator==((LanguageCode *)&uStack40,(LanguageCode *)&uStack56);
+              local_38 = Make(9);
+              uVar2 = operator==((LanguageCode *)&local_28,(LanguageCode *)&local_38);
               if ((uVar2 & 1) != 0) {
                 __s = "pt-";
                 goto LAB_7100ec2708;
               }
-              uStack56 = Make(10);
-              uVar2 = operator==((LanguageCode *)&uStack40,(LanguageCode *)&uStack56);
+              local_38 = Make(10);
+              uVar2 = operator==((LanguageCode *)&local_28,(LanguageCode *)&local_38);
               if ((uVar2 & 1) != 0) {
                 __s = "ru-";
                 goto LAB_7100ec2708;
               }
-              uStack56 = Make(0xb);
-              uVar2 = operator==((LanguageCode *)&uStack40,(LanguageCode *)&uStack56);
+              local_38 = Make(0xb);
+              uVar2 = operator==((LanguageCode *)&local_28,(LanguageCode *)&local_38);
               __s = "zh-Hant";
               if ((uVar2 & 1) != 0) goto LAB_7100ec2708;
-              uStack56 = Make(0xc);
-              uVar2 = operator==((LanguageCode *)&uStack40,(LanguageCode *)&uStack56);
+              local_38 = Make(0xc);
+              uVar2 = operator==((LanguageCode *)&local_28,(LanguageCode *)&local_38);
               if ((uVar2 & 1) != 0) {
                 __s = "en-GB";
                 goto LAB_7100ec2708;
               }
-              uStack56 = Make(0xd);
-              uVar2 = operator==((LanguageCode *)&uStack40,(LanguageCode *)&uStack56);
+              local_38 = Make(0xd);
+              uVar2 = operator==((LanguageCode *)&local_28,(LanguageCode *)&local_38);
               if ((uVar2 & 1) != 0) {
                 __s = "fr-CA";
                 goto LAB_7100ec2708;
               }
-              uStack56 = Make(0xe);
-              uVar2 = operator==((LanguageCode *)&uStack40,(LanguageCode *)&uStack56);
+              local_38 = Make(0xe);
+              uVar2 = operator==((LanguageCode *)&local_28,(LanguageCode *)&local_38);
               if ((uVar2 & 1) != 0) {
                 __s = "es-419";
                 goto LAB_7100ec2708;
               }
-              uStack56 = Make(0xf);
-              uVar2 = operator==((LanguageCode *)&uStack40,(LanguageCode *)&uStack56);
+              local_38 = Make(0xf);
+              uVar2 = operator==((LanguageCode *)&local_28,(LanguageCode *)&local_38);
               if ((uVar2 & 1) == 0) {
-                uStack56 = Make(0x10);
-                uVar2 = operator==((LanguageCode *)&uStack40,(LanguageCode *)&uStack56);
+                local_38 = Make(0x10);
+                uVar2 = operator==((LanguageCode *)&local_28,(LanguageCode *)&local_38);
                 __s = "zh-Hant";
                 if ((uVar2 & 1) == 0) {
                   __s = "en-US";
