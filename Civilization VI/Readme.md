@@ -5,7 +5,7 @@
 3. Run auto-analyze.
 4. While auto-analyze is working, translate `Vanilla_en_US_iOS.xml` to your language (this is the only file that doesn't exist or is not translated fully for unsupported languages - but is used by Nintendo Switch. You can try to find if this file exists for your language and copy-paste lines that are translated)
 5. When auto-analyze is finished, find string `ja-` (use Search -> Memory, it's not converted to string by Ghidra analyzer because it's too short) and check its references. We are searching for function that looks like this (based on 1.2.8):
-```
+```cpp
 void * FUN_7100ec246c(void *param_1,int param_2)
 
 {
@@ -130,8 +130,6 @@ LAB_7100ec2708:
   uVar1 = printf("GetPreferredLanguage : %s\n",param_1);
   return (void *)(ulonglong)uVar1;
 }
-
-
 ```
 6. Find instructions related to loading offset of strings `en-GB` and `en-US` in this function (ADRP/ADD)
 7. Change both of them to read offset of the same language string you want it to use
