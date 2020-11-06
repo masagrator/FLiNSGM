@@ -20,5 +20,5 @@ Languages supported via eshop:
 - Portuguese (Brazilian Portuguese in fact)
 
 Languages supported originally ("Language enum string")
-- Polish ("Polish") //Confirmed working
+- Polish ("Polish") //Confirmed working with some Polish characters issues in subtitles
 - Russian ("Russian")
