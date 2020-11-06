@@ -1,4 +1,4 @@
-# Saints Row The Third
+# Saints Row IV
 
 Recommended is to use IDA since Ghidra has issues with proper disassembling this main (IDA also, but not as bad as Ghidra and it's enough for this case). 
 
@@ -44,7 +44,7 @@ By searching instructions reading strings like "SE" or "ES" we can find that the
 override_language=es
 ```
 Save it.
-11. Copy `config.ini` to `atmosphere/contents/0100DE600BEEE000`
+11. Copy `config.ini` to `atmosphere/contents/01008D100D43E000`
 
 ---
 
@@ -63,7 +63,7 @@ override_language=es
 Save it.
 Explanation: I couldn't figure out how to replace English detection. Any other language can be used, I have decided to use Spanish as donator.
 
-8. Copy `config.ini` to `atmosphere/contents/0100DE600BEEE000`
+8. Copy `config.ini` to `atmosphere/contents/01008D100D43E000`
 
 ---
 
