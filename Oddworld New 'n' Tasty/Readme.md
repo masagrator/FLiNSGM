@@ -1,7 +1,7 @@
 # Oddworld New 'n' Tasty
 
 1. Unpack `main` from `exefs`, and `global-metadata.dat` from `romfs/Managed/Metadata`
-2. Use il2cppdumper, first choose main from exefs, then global-metadata.dat. It will create dump.cs
+2. Use `il2cppdumper`, first choose `main` from `exefs`, then `global-metadata.dat`. It will create `dump.cs`
 3. Open `global-metadata.dat` with HxD
 4. Open `dump.cs`
 5. Find in `dump.cs` enum `Language`
