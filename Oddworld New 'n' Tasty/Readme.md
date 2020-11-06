@@ -19,6 +19,6 @@ Languages supported via eshop:
 - Spanish
 - Portuguese (Brazilian Portuguese in fact)
 
-Languages supported originally ("Language enum string" / Unity language decimal value)
-- Polish ("Polish" / 27)
-- Russian ("Russian" / 30)
+Languages supported originally ("Language enum string")
+- Polish ("Polish") //Confirmed working
+- Russian ("Russian")
