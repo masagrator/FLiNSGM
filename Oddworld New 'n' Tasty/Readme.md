@@ -3,7 +3,7 @@
 1. Unpack `main` from `exefs`, and `global-metadata.dat` from `romfs/Managed/Metadata`
 2. Use `il2cppdumper`, first choose `main` from `exefs`, then `global-metadata.dat`. It will create `dump.cs`
 3. Open `global-metadata.dat` with HxD
-4. Open `dump.cs`
+4. Open `dump.cs` with Notepad++
 5. Find in `dump.cs` enum `Language`
 6. In `Language` enum you have described how each language string is stored in `global-metadata.dat`
 7. Find in `global-metadata.dat` string that is at least the same size as string you want to replace it with
