@@ -5,7 +5,8 @@
 3. Find `gml_Script__language` Code.
 4. Change `0` at the end of `00000: pushi.e 0` to different number that should match language value used in game.
 
-Based on Game object `Main_Menu_Language`'s textures order I'm determining used values
+Based on Game object `Main_Menu_Language`'s textures order I'm determining used values.
+
 5. Save it and put it in layeredfs
 
 Languages supported via eshop:
