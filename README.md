@@ -14,3 +14,4 @@ Tools I'm using:
 - Il2CppDumper https://github.com/Perfare/Il2CppDumper (with recommended script for ghidra: https://github.com/Perfare/Il2CppDumper/blob/81a5171e8fac66ef76117c322c16ac30110abf0f/Il2CppDumper/ghidra.py)
 - Notepad++ https://notepad-plus-plus.org/downloads/
 - OpenOffice calc (last time I have checked Excel had issues with parsing tsv while OpenOffice calc works fine)
+- UndertaleModTool https://github.com/krzys-h/UndertaleModTool
