@@ -1,6 +1,6 @@
 # This is the Zodiac Speaking
 
-1. Unpack `resources.assets` from `romfs\Data\`
+1. Get `resources.assets` from `romfs\Data\`
 2. Open it with UnityEx
 3. Find second the biggest file in there (`resources_00001.-13`), unpack it, go to `Unity_Assets_Files\resources` and open with HxD
 4. Go to the end of file, there will be structure with languages
