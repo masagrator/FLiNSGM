@@ -28,6 +28,6 @@ Languages supported via eShop ("language string"):
 - Russian ("russian")
 - Spanish ("spanish")
 
-Languages supported originally ("language string" / "language acronym")
+Other supported languages ("language string" / "language acronym")
 - Polish ("polish" / "pl")
 - Latin Spanish ("latin_spanish" / `n/d`)
