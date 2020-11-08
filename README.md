@@ -17,4 +17,4 @@ Tools I'm using:
 - UndertaleModTool https://github.com/krzys-h/UndertaleModTool
 
 Documentation:
-- Unity language enum https://github.com/Unity-Technologies/UnityCsReference/blob/master/Runtime/Export/BaseClass.cs#L130-L221
+- Unity language enum https://github.com/Unity-Technologies/UnityCsReference/blob/eb7074d546a9f957e9bde0419d3a34beb2946f96/Runtime/Export/BaseClass.cs#L130-L221
