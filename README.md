@@ -15,3 +15,6 @@ Tools I'm using:
 - Notepad++ https://notepad-plus-plus.org/downloads/
 - OpenOffice calc (last time I have checked Excel had issues with parsing tsv while OpenOffice calc works fine)
 - UndertaleModTool https://github.com/krzys-h/UndertaleModTool
+
+Documentation:
+- Unity language enum https://github.com/Unity-Technologies/UnityCsReference/blob/master/Runtime/Export/BaseClass.cs#L130-L221
