@@ -34,7 +34,7 @@ Supported languages via `Locale.ini` ("Language string")
 - Spanish ("Español")
 - Italian ("Italiano")
 - Portuguese ("Portuguese")
-- Sonic & Knucles ("ЦОПIС&КПИСКЛЕЦ") //WTF
+- Sonic & Knuckles ("ЦОПIС&КПИСКЛЕЦ") //WTF
 - French ("French")
 - Turkish ("Türkçe")
 - Valencian ("Valencia")
