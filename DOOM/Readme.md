@@ -12,7 +12,7 @@ Note: mentioned `language acronym` may not have any role here, I just didn't hav
 8. Go back to `_Z25Sys_SetLanguageFromSystemv` and replace offsets for `en` and `en-GB` with offset to your `language acronym`
 9. Save changes to IPS patch
 
-> How to force different audio
+> How to force different audio (audio of your language is set by default)
 1. Based on `english` string I have found function `_ZN21idSoundHardware_WWise17idLangToWWiseLangER5idStr`
 2. Change your `language string` offset called here somewhere to different `language string` offset
 3. Save changes to IPS patch
