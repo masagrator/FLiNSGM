@@ -6,7 +6,7 @@ Known issues: Font doesn't support all characters needed to run all included lan
 2. Open `resources.assets` in `UnityEX`
 3. Extract `Localization.txt`
 4. Rename `Localization.txt` to `Localization.csv`
-5. Open `Localization.csv` in `OpenOffice calc`
+5. Open `Localization.csv` in `OpenOffice Calc`
 6. Move column with your language so it will be 2nd column
 6. Save file, rename `Localization.csv` to `Localization.txt`
 7. Import file in `UnityEX`
