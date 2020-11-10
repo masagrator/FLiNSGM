@@ -12,6 +12,7 @@ RSG/Content/Localization/Codex/en/Codex.locres
 RSG/Content/Localization/Dialogs/en/Dialogs.locres
 ```
 to pak file using UnrealPak tutorial Patch tab
+
 5. Put correctly named pak file to layeredfs
 
 Languages supported via eShop:
