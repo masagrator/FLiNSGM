@@ -4,7 +4,8 @@
 2. Unpack `pakchunk0-Switch.pak` following UnrealPak tutorial
 3. Go to `RSG\Content\Localization`, in each folder you have localization files categorized by language
 4. Copy `*.locres` file from your language folder and replace file in `en` folder for every category
-4. Pack ```
+4. Pack 
+```
 RSG/Content/Localization/Logbooks/en/Logbooks.locres
 RSG/Content/Localization/BaseGame_ShortTexts/en/BaseGame_ShortTexts.locres
 RSG/Content/Localization/Codex/en/Codex.locres
