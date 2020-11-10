@@ -24,8 +24,8 @@ Languages supported via eshop:
 Languages supported originally and not possible to choose in game (Unity language value in decimal):
 - Polish (27) // confirmed working
 - Czech (7)
-- Brasilian Portuguese (There is not Brasilian Portuguese as SystemLanguage, only Portuguese as 28)
+- Brasilian Portuguese (There is not Brasilian Portuguese as `SystemLanguage`, only `Portuguese` as 28)
 - Japanese (22)
 - Korean (23)
-- Chinese Traditional (There is no differentation between Simplified and Traditional in SystemLanguage, only `Chinese` as 6)
-- Chinese Simplified (There is no differentation between Simplified and Traditional in SystemLanguage, only `Chinese` as 6)
+- Chinese Traditional (There is no differentation between Simplified and Traditional in `SystemLanguage`, only `Chinese` as 6)
+- Chinese Simplified (There is no differentation between Simplified and Traditional in `SystemLanguage`, only `Chinese` as 6)
