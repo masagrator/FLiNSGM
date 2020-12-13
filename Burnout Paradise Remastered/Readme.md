@@ -4,7 +4,7 @@
 2. Load it to `Ghidra` using `Ghidra Switch Loader`
 3. Run Auto-Analyze
 4. After finishing Auto-Analyze find `_ZN2nn2oe18GetDesiredLanguageEv` function
-5. Find function that looks like this in decompiled view
+5. Find xref that looks like this in decompiled view
 ```cpp
 
 ulonglong FUN_71000b1e10(void)
