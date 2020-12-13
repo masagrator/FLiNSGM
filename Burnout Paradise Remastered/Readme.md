@@ -70,7 +70,7 @@ Italian - 15
 
 For other languages we need to guess value 
 
-6. Change 0x7 from `orr w0,wzr,#0x7` at `71000b1f14` and `mov w0,#0x8` at `71000b1f24` to other value so `return 7` and `return 8` in decompiled view will change to our value.
+6. Change 0x7 from `orr w0,wzr,#0x7` at `function_offset+0x114` and `mov w0,#0x8` at `function_offset+0x124` to other value so `return 7` and `return 8` in decompiled view will change to our value.
 7. Write IPS patch and put it to exefs_patches
 
 Languages supported via eShop:
