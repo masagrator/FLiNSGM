@@ -18,5 +18,5 @@ Languages supported officialy via eShop:
 - Korean
 - Japanese
 
-Languages existing in original release ("language value"):
-- Polish ("0x6c70") // confirmed working
+Languages existing in original release ("`language value`"):
+- Polish ("`0x6c70`") // confirmed working
