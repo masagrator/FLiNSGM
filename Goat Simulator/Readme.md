@@ -30,4 +30,4 @@ Languages listed by eshop:
 
 Languages supported originally ("`language string`" / "`language value`")
 - Polish ("`POL`" / "`0x4c4f5006`")
-- Turkish (n\d / n\d)
+- Turkish (`n\d` / `n\d`)
