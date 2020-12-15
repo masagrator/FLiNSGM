@@ -11,6 +11,7 @@ NOTE: It is adviced to not use solely Ghidra. Use either IDA or IDA + Ghidra (Gh
   - `movt       r4,#0x544e`
   
   First instruction contains 2 last bytes of `language value`. Second instruction 2 first bytes of `language value`
+
 6. Change both instructions so in summary they will give us `language value`
 7. Save changes to IPS file
 
