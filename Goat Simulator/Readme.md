@@ -7,10 +7,10 @@ NOTE: It is adviced to not use solely Ghidra. Use either IDA or IDA + Ghidra (Gh
 3. After finishing conversion enable analyze
 4. After finishing analyze find function `nn::oe::GetDesiredLanguage(void)` and go to xref (it should be only one)
 5. We need to find two instructions in this function:
-- `movw       r4,#0x4906`
-- `movt       r4,#0x544e`
-
-First instruction contains 2 last bytes of `language value`. Second instruction 2 first bytes of `language value`
+  - `movw       r4,#0x4906`
+  - `movt       r4,#0x544e`
+  
+  First instruction contains 2 last bytes of `language value`. Second instruction 2 first bytes of `language value`
 6. Change both instructions so in summary they will give us `language value`
 7. Save changes to IPS file
 
