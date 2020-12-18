@@ -15,10 +15,10 @@ Languages available by eShop
 - Japanese
 
 Languages not possible to choose and available in `localization.txt` ("Language `KEY` string")
-- Polish ("Polish") // confirmed working
-- French ("French")
-- German ("German")
-- Italian ("Italian")
-- Portuguese ("Portuguese")
-- Spanish ("Spanish")
-- Russian ("Russian")
+- Polish ("`Polish`") // confirmed working
+- French ("`French`")
+- German ("`German`")
+- Italian ("`Italian`")
+- Portuguese ("`Portuguese`")
+- Spanish ("`Spanish`")
+- Russian ("`Russian`")
