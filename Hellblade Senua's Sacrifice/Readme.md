@@ -1,4 +1,4 @@
-# City of Brass
+# Hellblade Senua's Sacrifice
 
 Note: Game with languages not ported to Switch have some lines missing and some of them are split in comparison to PC. It is advised to use some locres tool to export text from english and your language, copy lines from your language so it will match english locres exported file and import it to english locres.
 
