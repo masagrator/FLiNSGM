@@ -2,7 +2,7 @@
 Force Language in Nintendo Switch Games Methodology repo
 
 Tools I'm using:
-- IDA Pro [for some hard cases that cannot be done via standard methods in Ghidra (like decompiling 300kB of instructions in one window faster and using much less RAM (40GB was not enough for Ghidra while IDA never passed 8GB usage)]
+- IDA Pro [for 32-bit apps and some 64-bit hard cases that cannot be done via standard methods in Ghidra (like decompiling 300kB of instructions in one window faster and using much less RAM (40GB was not enough for Ghidra while IDA never passed 8GB usage)]
 - Ghidra https://ghidra-sre.org/
 - UnityEX https://forum.zoneofgames.ru/topic/36240-unityex/
 - hactool https://github.com/SciresM/hactool
