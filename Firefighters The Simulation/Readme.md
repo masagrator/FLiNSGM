@@ -1,4 +1,4 @@
-# Bomber Crew
+# Firefighters The Simulation
 
 1. Unpack `main` from `exefs`, and `global-metadata.dat` from `romfs/Managed/Metadata`
 2. Load main to `Ghidra` using `Ghidra Switch Loader`
