@@ -1,4 +1,4 @@
-# Outlast
+# Outlast 2
 
 1. Get `main` from `exefs`
 2. Load `main` to `Ghidra` using `Ghidra Switch Loader`
