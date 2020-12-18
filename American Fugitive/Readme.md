@@ -1,4 +1,4 @@
-# This is the Zodiac Speaking
+# American Fugitive
 
 1. Get `resources.assets` from `romfs\Data\`
 2. Open it with UnityEx
