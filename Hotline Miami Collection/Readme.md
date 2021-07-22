@@ -10,18 +10,18 @@ No language used
 2. Load it to `Ghidra` using `Ghidra Switch Loader`
 3. Disassemble whole `.text` and `.plt` regions
 4. After finishing disassembling find `_ZN2nn2oe18GetDesiredLanguageEv` function and go to its only xref
-5. In 13th instruction of function change `tbz` to `tbnz`
-6. In 14th instruction of function change last value in instruction to `language value`
-7. Write changes to ips file
+5. Change first instructions to `[lang]` of your language of choice
+7. Change next instruction to `ret`
+8. Write changes to ips file
 
-Languages supported via eShop (decimal language value):
-- French
-- German
-- Spanish
-- Russian
-- Brasilian Portuguese
-- English
-- Japanese
+Languages supported via eShop (`lang`):
+- French (`mov x0, #1; LSL #32, mov x0, #2`)
+- German (`mov x0, #-0xfffc; movk x0, #0x0, LSL #16`)
+- Spanish (`mov x0, #-0xfffb; movk x0, #0x0, LSL #16`)
+- Russian (`mov x0, #-0xfff8; movk x0, #0x0, LSL #16`)
+- Brasilian Portuguese (`mov x0, #1; LSL #32, mov x0, #6`)
+- English (supports anything that is not matching other languages)
+- Japanese (`mov x0, #-0xfff7; movk x0, #0x0, LSL #16`)
 
 Languages supported originally (decimal language value):
-- Polish (5)
+- Polish (`mov x0, #-0xfff9; movk x0, #0x0, LSL #16`)
