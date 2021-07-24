@@ -10,6 +10,10 @@
 ```
                         *(undefined4 *)(*(long *)(Team17.StringLocalization.Localization_TypeInfo + 0xb8) + 0x48) = 0;
 ```
+or (depends on game version)
+```
+                        *(undefined4 *)(*(longlong *)(_Team17.StringLocalization.Localization_TypeInfo + 0xb8) + 0x40) = 0;
+```
 Find instruction related to this `mov w8,wzr` and change it to `mov w8,#[unk]` where `[unk]` is `languagev value`
 
 8. Create IPS patch with changed values
