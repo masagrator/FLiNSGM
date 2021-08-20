@@ -8,7 +8,7 @@
 5. Immediately return `language value`
 
 Officially supported languages (`language value`):
-- English (`6')
+- English (`6`)
 - French (`1`)
 - CanadianFrench (`1`)
 - Italian (`3`)
