@@ -4,9 +4,8 @@
 1. Get `main` from `exefs`
 2. Load `main` to `Ghidra` with `Ghidra Switch Loader`
 3. Auto-Analyze main
-4. After finishing Auto-Analyze find position of your `language string` in memory and save its offset 
-5. Find function `_ZN2nn2oe18GetDesiredLanguageEv_0` and go to xref which returns `language value` (different than `LanguageCode*`)
-6. Immediately return `language value`
+4. Find function `_ZN2nn2oe18GetDesiredLanguageEv_0` and go to xref which returns `language value` (different than `LanguageCode*`)
+5. Immediately return `language value`
 
 Officially supported languages (`language value`):
 - English (`6')
