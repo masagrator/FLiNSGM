@@ -29,5 +29,5 @@ Languages supported via eshop / language value:
 - Chinese / 6 + 8
 
 Languages supported originally and not possible to choose in game / language value:
-- Polish / 9
-- Japanese / 7
+- Polish / 9 (Confirmed working)
+- Japanese / 7 (Confirmed working)
