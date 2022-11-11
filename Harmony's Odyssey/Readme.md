@@ -12,7 +12,7 @@ or
 
 5.2. Run Auto-analyze and after finishing auto-analyze find `UnityEngine.Application$$get_systemLanguage`
 
-6. Change first instruction to `mov x0, #[unk]` where `[unk]` is value attached to language used in Unity.
+6. Change first instruction to `mov w0, #[unk]` where `[unk]` is value attached to language used in Unity.
 7. Second instruction should be `ret`
 8. Create IPS patch with changed values
 9. Put it to Switch
