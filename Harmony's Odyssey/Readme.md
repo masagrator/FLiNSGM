@@ -1,0 +1,51 @@
+# Harmony's Odyssey
+
+1. Unpack `main` from `exefs`, and `global-metadata.dat` from `romfs/Managed/Metadata`
+2. Load main to `Ghidra` using `Ghidra Switch Loader`
+3. Use il2cppdumper, choose first `main` from exefs, then `global-metadata.dat`. It will create `script.json`
+4. Open loaded `main`, don't analyze it. Use `ghidra.py` to load script.json
+5. After finishing loading and parsing `script.json` either:
+
+5.1 Search for `UnityEngine.Application$$get_systemLanguage` and disassemble it manually
+
+or
+
+5.2. Run Auto-analyze and after finishing auto-analyze find `UnityEngine.Application$$get_systemLanguage`
+
+6. Change first instruction to `mov x0, #[unk]` where `[unk]` is value attached to language used in Unity.
+7. Second instruction should be `ret`
+8. Create IPS patch with changed values
+9. Put it to Switch
+
+Languages supported via eshop:
+- English
+- Dutch
+- French
+- German
+- Spanish
+- Russian
+- Italian
+- Japanese
+- Portuguese
+- Brasilian Portuguese
+- Chinese Simplified
+- Chinese Traditional
+- Japanese
+- Korean
+
+Languages supported originally and not possible to choose in game (Unity language value in decimal):
+- Polish (27) // confirmed working
+- Czech (7)
+- Arabic (1)
+- Bulgarian (4)
+- Danish (8)
+- Finnish (13)
+- Greek (15)
+- Norwegian (26)
+- Romanian (29)
+- Swedish (35)
+- Turkish (37)
+- Ukrainian (38)
+- Vietnamese (39)
+- Hungarian (18)
+- Thai (36)
