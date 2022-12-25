@@ -13,6 +13,7 @@ uint32_t val_1
 uint32_t LanguageCode
 ```
 Find 2 LanguageCode values `0xA` and change it to `Unity language value`
+
 9. Find function `I2.Loc.LocalizationManager$$set_CurrentLanguage` and return it instantly
 10. Create IPS patch with changed values
 11. Put it to Switch
